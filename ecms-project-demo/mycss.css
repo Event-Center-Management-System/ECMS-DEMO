@@ -1,0 +1,634 @@
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+*{
+	font-family:'Charis SIL', serif;
+}
+
+body{
+	font-family: 'Charis SIL', serif;
+	margin: 0;
+	padding: 0;
+	border: 2px solid #D8BFD8;
+	
+}
+
+   
+   
+#
+  
+  
+#basicin{
+	font-family: Tapestry;
+	font-size: 35px;
+	color: #333;
+	text-align: center;
+	border-bottom: 1px solid #00CED1;
+}
+
+
+h5{
+	text-align: left;
+	padding-left: 4em;
+	color: #333;
+	font-family: Tapestry;
+}
+
+h3{
+	font-family: Tapestry;
+	color: #333;
+	font-size: 20px;
+}
+
+
+#insertPhoto{
+	height: 300px;
+	width: 260px;
+	padding-left: 2em;
+	padding-bottom: 2em;
+	border-bottom: 1px solid #00CED1;
+	
+}
+
+
+
+.info{
+	color: #333;
+	font-family: Tapestry;
+}
+
+.all{
+	color: #333;
+	align-items: center;
+	background-color: #4169E1; 
+}
+/*SIGN UP PAGE*/
+#set{
+	width: 50%;
+	padding: 20px, 0px, 20px, 0px;
+	margin-left: 20.5em;
+	margin-right: 20.5em;
+	margin-top: 5.5em;
+	margin-bottom: 5.5em;
+}
+
+#sign_name{
+	float: left;
+}
+
+#name{
+	width: auto;
+}
+
+input[type=password], input[type=username]{
+	width: auto;
+}
+
+#check{
+	text-align: center;
+}
+
+/*LOGIN PAGE*/
+
+#insertPhoto {
+    opacity: 8em;
+	image-resolution: 2em;
+ }
+form{
+    margin-top: 5.5em;
+	margin-bottom: 6.9em;
+	margin-left: 24em;
+	margin-right: 22.5em;
+			width: 420px;
+			padding: 60px;
+            padding-top: 8em;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+            
+}
+
+input[type=text], input[type=password] {
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+#sign{
+	background-color: #4CAF50;
+	float: left;
+}
+#sign:hover{
+	background-color: #45a049;
+}
+
+button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.8em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+	display: flex;
+	flex-wrap: wrap;
+}
+button:hover {
+    background-color: #45a049;
+}
+
+#login_google{
+	text-align: left;
+}
+
+/**HOME PAGE*/
+#home{
+	margin-top: 3.5em;
+	background-color: #D9D9D9;;
+}
+
+#not_accra{
+	width: auto;
+}
+
+#search_tab{
+	width: 18em;
+	border-radius: 8px;
+	background-color:#B0B0B0;
+	margin-left: 58em;
+	margin-top: 0.2em;
+}
+
+#search_nav{
+	border-radius: 8px;
+	background-color: #fff;
+	color: #000;
+	align-items: end;
+	padding:0.3em;
+	margin-top: 1em;
+}
+.fa_fa-search{
+	align-items: right;
+}
+
+#myTopnav{
+	top: 0;
+	left: 0;
+	margin: 0;
+	height: 46px;
+	padding: 0;
+	width: 100%; 
+	display: flex;
+	justify-content: space-around;
+	position: fixed;
+	background-color: #fff;
+	 
+}
+
+#myTopnav ul{
+	display: flex;
+	margin-right: 5em;
+	list-style: none;
+}
+
+a{
+	
+	text-decoration: none;
+
+}
+
+#li_company_name{
+	color: #000;
+	text-align: left;
+	margin-left: 0em;
+	padding-left: 0em;
+}
+
+#myTopnav ul li a{
+	height: 45px;
+	line-height: 45px;
+	margin-top: 3em;
+	text-align: right;
+	font-size: 0.65em;
+	font-weight: 500;
+	text-transform: uppercase;
+	padding: 0.7px 17px; 
+	color: #000;
+	letter-spacing: 1px;
+	transition: 0.6 ease-out;
+}
+
+#myTopnav ul li a:hover{
+	border-left: 2px solid #544F4F;
+	border-bottom: 2px solid #544F4F;
+	box-shadow: 5px 10px 30px rgba(85,107,47,0.4);
+}
+
+.active{
+	border-left: 2px solid #F0E68C;
+	border-bottom: 2px solid #F0E68C;
+	box-shadow: 5px 10px 30px rgba(85,107,47,0.4);
+}
+
+
+/*
+#second_set{
+	width: 50%;
+}
+#details{
+	display:;
+	margin-left: 0;
+} 
+
+#the_name{
+	display:flex;
+	padding: 10px;
+	padding-top: 1em;
+	height: 3em;
+	padding-bottom: 0;
+	background-color: #ADD8E6;
+	
+}
+
+.tag{
+	padding-top: 1em;
+}
+.name{
+	padding: 2em;
+	padding-top: 0;
+}
+
+#sex{
+	display: flex;
+	padding: 10px ;
+	height: 3em;
+	padding-top: 0;
+	background-color: #00BFFF;
+}
+
+#nationality{
+	display: flex;
+	padding: 10px ;
+	height: 3em;
+	padding-top: 0;
+	background-color: #ADD8E6;
+}
+
+#religion{
+	display: flex;
+	padding: 10px ;
+	height: 3em;
+	padding-top: 0;
+	background-color: #00BFFF;
+}
+
+
+#residence{
+	display: flex;
+	padding: 1em;
+	height: 3em;
+	padding-top: 0;
+	padding-bottom: 0.9m;
+	background-color: #ADD8E6;
+}
+
+#status{
+	display: flex;
+	padding: 10px;
+	height: 3em;
+	padding-top: 0;
+	background-color: #00BFFF;
+}
+
+.nam{
+	padding-top: 0;
+	padding-left: 1em;
+	padding-bottom: 2px;
+	
+}
+#job{
+	display: flex;
+	padding: 10px;
+	height: 3em;
+	padding-top: 1em;
+	background-color:  #ADD8E6;
+}	
+
+#birth{
+	display: flex;
+	padding: 10px;
+	height: 3em;
+	padding-top: 1em;
+	background-color: #00BFFF;
+}	
+
+ 
+
+#message{
+	padding: 2em;
+	padding-top: 0;
+	padding-bottom: 0.9m;
+}
+
+#contact{
+	padding: 2em;
+	padding-top: 0;
+	padding-bottom: 0.9m;
+
+}
+
+#fullname{
+	padding: 2em;
+	padding-top: 0;
+	padding-bottom: 0.9m;
+}
+
+#mail{
+	padding: 2em;
+	padding-top: 0;
+	padding-bottom: 0.9m;
+}
+
+.btn{
+	padding: 2em;
+	padding-top: 0;
+	padding-bottom: 1em;	
+}
+
+.btn{
+	padding: 2px 20px 5px;
+	padding-bottom: 1em;
+	border: 0;
+	align-items: center;
+	margin: 30px;
+	color: #333;
+	outline: none;
+	cursor: pointer;
+	font-weight: 500;
+	border-radius: 30px;
+	background-color: #6FD649;
+}
+.btn:hover{
+	border: 2px solid #B0C4DE;
+	box-shadow: 5px 10px 30px rgba(95,158,160,0.4);
+}
+
+.bttn{
+	padding: 2px 10px 4px;
+	align-items: center;
+	padding-right: 0;
+	text-align: center;
+	padding: 0;
+	color: #333;
+	font-size: 14px;
+	font-weight: 500;
+	cursor: pointer;
+	outline: none;
+	border-width: 4em;
+	border-radius: 30px;
+	background-color: #6FD649;
+}
+
+.bttn:hover{
+	border: 2px solid #B0C4DE;
+	box-shadow: 5px 10px 30px rgba(95,158,160,0.4);
+}
+
+.popup{
+	width: 400px;
+	background-color: #FFFFFF;
+	border-radius: 6px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%,-50%) scale(0.1);
+	text-align: center;
+	padding: 0 30px 30px;
+	color: #333;
+	visibility: hidden;
+	transition: transform 0.4s, top 0.4s;
+}
+
+.open-popup{
+	visibility: visible;
+	top: 70em;
+	transform: translate(-50%,-50%) scale(1);
+}
+
+#imgpop{
+	height: 100px;
+	margin-top: -20px;
+	border-radius: 30%;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.popup h2{
+	font-size: 38px;
+	font-weight: 500;
+	margin: 30px 0 10px;
+}
+
+.popup button{
+	width: 100px;
+	margin-top: 50px;
+	padding: 10px 0;
+	background-color: #6FD649;
+	color:#FFF;
+	border: 0;
+	outline: none;
+	font-size: 18px;
+	border-radius: 4px;
+	cursor: pointer;
+	box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+}
+
+#sec-header{
+	background-color: #5F9EA0;
+}
+
+#sec-header{
+	padding: 30px;
+	padding-top: 90px;
+	font-weight: 100;
+	color: #000000;
+}
+
+
+.rules{
+	color: #333;
+	text-transform: uppercase;
+	padding-top: 1em;
+	border-top: 1px solid #00CED1;
+}	
+
+ 
+
+#mainFooter{
+	display: flex;
+	justify-content: right;
+	padding-bottom: 0;
+}
+
+.fa{
+	padding: 20px;
+	padding-bottom: 1em;
+	font-size: 1.5em;
+	text-decoration: none;
+}
+
+.fa-google{
+	padding-top: 1em;
+	font-size: 1em;
+	color:  #008080;
+}
+
+#phone{
+	height: 20px;
+	padding-top: 1em;
+}
+
+
+
+.fa-twitter{
+	color: #008080;
+}
+
+.fa-youtube{
+	color: #008080;
+}
+
+.fa-instagram{
+	color: #008080;
+}
+
+   
+
+#attended{
+	font-family: Tapestry;
+	color: #333;
+	font-size: 35px;
+	text-align: center;
+	border-bottom: 1px solid #00CED1;
+}
+
+.post{
+	padding: 30px;
+	padding-top: 90px;
+	font-weight: 100;
+	color: #333;
+	background-color: #FAEBD7;
+}
+
+#primary{
+	display: flex;
+	padding-top: 0;
+}
+
+#cosmos{
+	padding: 30px;
+	padding-top: 20px;
+	border-radius: 50%;
+}
+
+#cosmoshistory{
+	color: #333;
+	padding-top: 0.9em;
+}
+
+#secondary{
+	display: flex;
+}
+
+#prempeh{
+	padding: 30px;
+	padding-top: 20px;
+	border-radius: 40%;
+}
+
+#prempehhistory{
+	color: #333;
+	padding-top: 1em;
+}
+
+#tertiary{
+	display: flex;
+	padding-top: 0;
+}
+
+#legon{
+	padding: 30px;
+	padding-top: 20px;
+}
+
+#legonhistory{
+	color: #333;
+	padding-top: 0.9em;
+}
+
+    
+
+#skills_header{
+	color: #333;
+}
+
+#skills{
+	padding: 30px;
+	padding-top: 4em;
+	background-color: #FFF0F5;
+	
+}
+
+#skillAqc{
+	color: #333;
+	font-family: Tapestry;
+	font-size: 35px;
+	text-align: center;
+	border-bottom: 1px solid #00CED1;
+}
+#skill{
+	color: #333;
+	font-size: 2em;
+	padding-top: 0.5em;
+	padding-bottom: 6em;
+}
+
+  
+
+#awards{
+	color: #333;
+	padding: 30px;
+	background-color: #F0FFF0;
+}
+#award{
+	font-family: Tapestry;
+	font-size: 35px;
+	text-align: center;
+	padding-top: 2em;
+	border-bottom: 1px solid #00CED1;
+}
+
+#prize{
+	font-size: 2em;
+	padding-bottom: 7em;
+}
+
+   
+
+#nojob{
+	color: #333;
+	padding: 30px;
+	background-color: #F5F5F5;
+}
+
+#jobs{
+	font-size: 2em;
+	padding-top: 0.5em;
+	padding-bottom: 8em;
+}
+#profession{
+	font-family: Tapestry;
+	font-size: 35px;
+	text-align: center;
+	padding-top: 2em;
+	border-bottom: 1px solid #00CED1;
+}
